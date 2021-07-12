@@ -1,4 +1,4 @@
-# NotesAppAAC
+# Notes App using AAC
 
 A sample Notes app that uses Android Achitecture Components MVVM architecture.
 
@@ -27,3 +27,7 @@ Repository's work is only to fetch Data. Fetching of the data can be from an API
 
 #### DAO
 All the Room DB operations are handled by the DAO e.g. insert, delete, querying of data (with SQLite) happens in an interface within DAO.
+
+#### Reference
+
+https://developer.android.com/codelabs/android-room-with-a-view-kotlin#1
