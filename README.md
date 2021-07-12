@@ -1,12 +1,17 @@
 # NotesAppAAC
 
+A sample Notes app that uses Android Achitecture Components MVVM architecture.
+
+## Diagram
+
+![](app/src/main/res/drawable/AAC.png)
 
 ### High Level Explanation
 
 Activity (*MainActivity.kt*) talks with *ViewModel* ->  *ViewModel* talks with *Repository* ->   *Repository* talks to *DAO* (data access object)
 
 
-### Definition of the components
+### Definition of the components 
 
 #### MainActivity.kt
 MainActivity.kt in this architecture is only concerned with inflating the layout manager and showing the data in the UI. It's not worrying how or where the data is coming from?
